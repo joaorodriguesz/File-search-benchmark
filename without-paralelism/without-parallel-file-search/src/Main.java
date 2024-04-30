@@ -10,12 +10,12 @@ public class Main {
         System.out.println("Buscando nome: " + name);
         scanner.close();
 
-        String diretorio = "/home/joaorodrigues/git-hub/public-repositories/file-search-benchmark/files-to-read/dataset_g";
+        String directory = "/home/joaorodrigues/git-hub/public-repositories/file-search-benchmark/files-to-read/dataset_g";
 
         long startTime = System.currentTimeMillis();
 
         for (int i = 1; i <= 7; i++) {
-            File file = new File(diretorio, "a" + i + ".txt");
+            File file = new File(directory, "a" + i + ".txt");
             var isPresent = SearchName.find(file, name);
             if(isPresent){
                 break;
