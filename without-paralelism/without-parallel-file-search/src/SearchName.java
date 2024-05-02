@@ -21,7 +21,6 @@ public class SearchName {
             e.printStackTrace();
         }
 
-        System.out.println("O nome não foi encontrado no arquivo: " + arquivo.getName());
         return false;
     }
 }

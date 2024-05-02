@@ -18,14 +18,11 @@ public class Main {
             File file = new File(directory, "a" + i + ".txt");
             var isPresent = SearchName.find(file, name);
             if(isPresent){
+                long endTime = System.currentTimeMillis();
+                long executionTime = endTime - startTime;
+                System.out.println("Tempo de execução: " + executionTime + " ms");
                 break;
             }
         }
-
-        long endTime = System.currentTimeMillis();
-        long executionTime = endTime - startTime;
-
-        System.out.println("Tempo de execução: " + executionTime + " ms");
-
     }
 }
