@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/file-search-benchmark.iml" filepath="$PROJECT_DIR$/.idea/file-search-benchmark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/with-parallelism/with-parallelism.iml" filepath="$PROJECT_DIR$/with-parallelism/with-parallelism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/without-paralelism/without-paralelism.iml" filepath="$PROJECT_DIR$/without-paralelism/without-paralelism.iml" />
+    </modules>
+  </component>
+</project>

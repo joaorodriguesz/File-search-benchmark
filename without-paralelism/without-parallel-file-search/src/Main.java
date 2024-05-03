@@ -4,13 +4,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //Andrew Key
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite o nome:");
-        String name = scanner.nextLine();
-        System.out.println("Buscando nome: " + name);
-        scanner.close();
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Digite o nome:");
+//        String name = scanner.nextLine();
+//        System.out.println("Buscando nome: " + name);
+//        scanner.close();
 
-        String directory = "/home/joaorodrigues/git-hub/public-repositories/file-search-benchmark/files-to-read/dataset_g";
+        String name = "Penny Black";
+
+        String directory = "/home/joao.rodrigues/Documents/file-search-benchmark/files-to-read/dataset_g";
 
         long startTime = System.currentTimeMillis();
 
